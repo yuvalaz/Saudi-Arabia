@@ -5,6 +5,9 @@ body{
     background-position: center;
     background-position: 0px 30px;
     background-size: 100% 550px;
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
 
 }
 #bodycities{
@@ -33,6 +36,9 @@ body{
     background-position: center;
     background-position: 0px 30px;
     background-size: 100% 550px;
+    min-height: 210vh;
+    display: flex;
+    flex-direction: column;
 
 }
 #saudinight{
@@ -136,4 +142,12 @@ button{
 }
 .symbol{
     width: 100px ;
+}
+footer{
+    margin-top: auto;
+    width: 100%;
+    background-color: rgb(119, 116, 116);
+    color: white;
+    text-align: center;
+    
 }
