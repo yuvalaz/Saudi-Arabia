@@ -1,15 +1,139 @@
 body{
-    background-color: rgb(68, 126, 62);
+    background-color: rgb(187, 216, 184);
+    background-image: url(shutterstock_1645987459_lg37eg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 0px 30px;
+    background-size: 100% 550px;
+
+}
+#bodycities{
+    background-color: rgb(187, 216, 184);
+    background-image: url(saudi-arabia-has-many-of-the-greatest-deserts-in-the-wor-meta-1677727935.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 0px 30px;
+    background-size: 100% 550px;
+    
+
+}
+#bodyvideo{
+    background-color: rgb(187, 216, 184);
+    background-image: url(shutterstock_1148506721.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 0px 30px;
+    background-size: 100% 550px;
+
+}
+#bodycontact{
+    background-color: rgb(187, 216, 184 );
+    background-image: url(saudi-arabia-beaches-1920x1080.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 0px 30px;
+    background-size: 100% 550px;
+
+}
+#saudinight{
+    background-image: none;
 }
 #waveflag{
-    width: 15%;
-    height: 25%;
-    position: relative;
-    left: 80%;
-    top: -85px
-    ;
+    width: 8%;
+    position: absolute;
+    top: 5%;
+    left: 90%;
 }
 h1{
-    font-size: 300%;
+    color: rgb(0, 94, 44);
+    font-size: 350%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    position: relative;
+    top: 40%;
+    left:1%;
     
+}
+#up{
+    font-size: 20px;
+    position: absolute;
+    left: 40%;
+    top: 0.1%;
+    border-spacing: 19px 5px;
+    
+
+
+}
+
+header{
+
+
+
+
+   
+  
+
+    
+}
+#top{
+    
+}
+h2{
+    background: linear-gradient(rgb(66, 242, 166), green);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    position:relative; 
+    top: 470px;
+    text-align: center;
+
+}
+#h2cities{
+    background: linear-gradient(rgb(148, 206, 181), rgb(29, 29, 148));
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    position:relative; 
+    top: 470px;
+    text-align: center;
+}
+#saudimap{
+    width: 300px;
+}
+p{
+    position:relative; 
+    top: 470px;
+    text-align: center;
+}
+
+form{
+    position:relative; 
+    top: 470px;
+    text-align: center;
+}
+input, label{
+    display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+  width: 500px;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 100;
+  font-style: normal;
+
+}
+textarea::placeholder{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+button{
+    width: 70px;
+    height: 50px;
+    background-color: rgb(61, 50, 216);
+    border-radius: 5px;
+    color: #ffff;
+    font-size: 25px;
+}
+.symbol{
+    width: 100px ;
 }

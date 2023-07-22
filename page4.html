@@ -4,19 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Saudi Arabia Contect Us </title>
+    <title>Saudi Arabia Contact</title>
 </head>
-<body>
+<body id="bodycontact">
     <header>
-        <h1>Saudi Arabia</h1>
-           <video autoplay muted loop src="vecteezy_kingdom-of-saudi-arabia-ksa-realistic-waving-flag-smooth_10248663_598.mp4" alt ="saudi arabia flag wave" id="waveflag"></video>
-               <source src="vecteezy_kingdom-of-saudi-arabia-ksa-realistic-waving-flag-smooth_10248663_598.mp4"> 
-                 <table>
-                    <th><a href="index.html">Home Page</a></th>
-                    <th><a href="page2.html">Citys</a></th>
-                    <th><a href="page3.html">Videos</a></th>
-                    <th><a href="page4.html">Contect Us</a></th>
-            </table>
-     </header>
+        <div id="top"> 
+            <table id="up">
+               <th><a href="index.html">Home Page</a></th>
+               <th><a href="page2.html">Cities</a></th>
+               <th><a href="page3.html">Videos</a></th>
+               <th><a href="page4.html">Contact</a></th>
+             </table>
+        </div>
+             <h1><b>Saudi Arabia</b></h1>
+               <video autoplay muted loop src="vecteezy_kingdom-of-saudi-arabia-ksa-realistic-waving-flag-smooth_10248663_598.mp4" alt ="saudi arabia flag wave" id="waveflag"></video>
+                   <source src="vecteezy_kingdom-of-saudi-arabia-ksa-realistic-waving-flag-smooth_10248663_598.mp4">
+ 
+              
+    </header>
+    <div id="content">
+        <h2>Have a question for us?<br>سوال؟</h2>
+        <form>  
+             <input type="text" id="fname"  placeholder="First name" required/><br><br>
+             <input type="text"id="lname" placeholder="Last name" required/><br><br>
+             <input type="text" id="phone" placeholder="Phone" required/><br><br>
+             <input type="email" id="email" placeholder="Email" required/><br><br>
+             <input type="text" id="nationality" placeholder="Nationality" required/><br><br>
+             <textarea  rows="7" cols="70"   id="message"  placeholder="Message" required></textarea><br><br>
+             <button onclick="dosomething()">Send</button>
+             <b id="sent"></b>
+             <script>
+                function dosomething(){
+                    document.getElementById("sent").innerHTML = "Sent";
+
+                }
+             </script>
+        </form>
+
+
+    </div>
+
+    
 </body>
 </html>
