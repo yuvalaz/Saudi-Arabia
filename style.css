@@ -69,6 +69,11 @@ h1{
 
 
 }
+a{
+    text-decoration: none;
+    color: #ffff;
+    font-family: ;
+}
 
 header{
 
@@ -83,12 +88,22 @@ header{
 #top{
     
 }
+
+.city{
+    font-size:50px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: bolder;
+}
 h2{
     background: linear-gradient(rgb(66, 242, 166), green);
+    color: #ffff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
     position:relative; 
-    top: 470px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px;
+    top: 410px;
     text-align: center;
 
 }
@@ -97,16 +112,56 @@ h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
     position:relative; 
-    top: 470px;
+    top: 410px;
     text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+#h2contact{
+    background: linear-gradient(rgb(148, 206, 181), rgb(29, 29, 148));
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    position:relative; 
+    top: 410px;
+    text-align: center;
+    margin-left: 420px;
+    margin-right: 420px; 
 }
 #saudimap{
     width: 300px;
+    position: relative;
+    top: 200px;
+    left: 1200px;
 }
 p{
     position:relative; 
     top: 470px;
     text-align: center;
+
+}
+#psport{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    position: relative;
+    top: 420px;
+    font-size: 25px;
+    background-color: aliceblue;
+}
+.videos{
+    width: 400px;
+    height: 30%;
+    margin-right: 15px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+#divideo{
+    margin-top: 480px;
+    margin-bottom: 50px;
+    background-color: rgb(194, 236, 197);
+    margin-left: 100px;
+    margin-right: 100px;
+
 }
 
 form{
@@ -126,6 +181,57 @@ input, label{
   font-style: normal;
 
 }
+#tablesport{
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 180px;
+    background-color: rgb(189, 255, 127);
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    border: 1px solid #000000;
+    border-spacing: 0px 50px 100px 10px;
+
+}
+#tablesport tr:nth-child(even){
+    
+    background-color: #f2f2f2;
+
+
+}
+#tablesport tr:nth-child(odd){
+    background-color: #ddd;
+
+}
+
+#tablesport th{
+    padding right: 100px;
+    border: 1px solid #000000;
+    color: #ffff;
+    background-color: rgb(255,0,0);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 50px;
+    padding-left:100px;
+    border-radius: 5px;
+    
+
+}
+tr{
+    border-color: black;
+    border: 1px solid #000000;
+}
+#populations{
+    padding-right: 30px;
+    padding-left: 100px;
+    
+}
+    
+
 textarea::placeholder{
     text-align: left;
     font-size: 20px;
@@ -139,15 +245,17 @@ button{
     border-radius: 5px;
     color: #ffff;
     font-size: 25px;
+    padding: 1px;
+    margin-left: 470px;
 }
 .symbol{
     width: 100px ;
 }
 footer{
     margin-top: auto;
-    width: 100%;
     background-color: rgb(119, 116, 116);
     color: white;
     text-align: center;
     
 }
+
