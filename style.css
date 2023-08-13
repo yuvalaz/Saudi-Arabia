@@ -1,6 +1,6 @@
 body{
     background-color: rgb(141, 156, 163);
-    background-image: url(shutterstock_1645987459_lg37eg.jpg);
+    background-image: url(picture/shutterstock_1645987459_lg37eg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-position: 0px 30px;
@@ -8,31 +8,35 @@ body{
     min-height: 390vh;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 
 }
 #bodycities{
-    background-color: rgb(187, 216, 184);
-    background-image: url(saudi-arabia-has-many-of-the-greatest-deserts-in-the-wor-meta-1677727935.jpg);
+    background-color: rgb(141, 156, 163);
+    background-image: url(picture/saudi-arabia-has-many-of-the-greatest-deserts-in-the-wor-meta-1677727935.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-position: 0px 30px;
     background-size: 100% 550px;
+    overflow-x: hidden;
+
     
 
 }
 #bodyvideo{
-    background-color: rgb(187, 216, 184);
-    background-image: url(shutterstock_1148506721.jpg);
+    background-color: rgb(141, 156, 163);
+    background-image: url(picture/shutterstock_1148506721.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-position: 0px 30px;
     background-size: 100% 550px;
     min-height: 250vh;
+    overflow-x: hidden;
 
 }
 #bodycontact{
-    background-color: rgb(187, 216, 184 );
-    background-image: url(saudi-arabia-beaches-1920x1080.webp);
+    background-color: rgb(141, 156, 163);
+    background-image: url(picture/saudi-arabia-beaches-1920x1080.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-position: 0px 30px;
@@ -40,6 +44,7 @@ body{
     min-height: 210vh;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 
 }
 #saudinight{
@@ -73,7 +78,7 @@ h1{
 a{
     text-decoration: none;
     color: #ffff;
-    font-family: ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; ;
 }
 
 header{
@@ -92,14 +97,14 @@ header{
 
 .city{
     font-size:50px ;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font: bolder;
     text-align: center;
 }
 h2{
     background: linear-gradient(rgb(199, 224, 226), rgb(139, 122, 152));
     color: #ffff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-size: 50px;
     position:relative; 
     margin-left: auto;
@@ -111,7 +116,7 @@ h2{
 }
 #h2cities{
     background: linear-gradient(rgb(148, 206, 181), rgb(29, 29, 148));
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-size: 50px;
     position:relative; 
     top: 410px;
@@ -121,7 +126,7 @@ h2{
 }
 #h2contact{
     background: linear-gradient(rgb(158, 233, 240), rgb(178, 129, 52));
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-size: 50px;
     position:relative; 
     top: 410px;
@@ -131,7 +136,7 @@ h2{
 }
 #h2video{
     background: linear-gradient(rgb(168, 157, 174), rgb(224, 144, 114));
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-size: 50px;
     position:relative; 
     top: 410px;
@@ -191,7 +196,7 @@ input, label{
   padding: 15px;
   width: 500px;
   font-size: 15px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   font-weight: 100;
   font-style: normal;
 
@@ -219,7 +224,7 @@ input, label{
 
 #tablesport th{
     background-color: rgb(255,0,0);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 
 
 }
@@ -237,7 +242,7 @@ tr,td{
 textarea::placeholder{
     text-align: left;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 
 }
 button{
@@ -307,7 +312,7 @@ footer{
     font-size: 25px;
     color: #ffff;
     text-align: left;
-    font-family: 'Libre B askerville', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 #dream{
     background-color: rgb(35, 58, 105);
