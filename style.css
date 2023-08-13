@@ -11,42 +11,6 @@ body{
     overflow-x: hidden;
 
 }
-#bodycities{
-    background-color: rgb(141, 156, 163);
-    background-image: url(picture/saudi-arabia-has-many-of-the-greatest-deserts-in-the-wor-meta-1677727935.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position: 0px 30px;
-    background-size: 100% 550px;
-    overflow-x: hidden;
-
-    
-
-}
-#bodyvideo{
-    background-color: rgb(141, 156, 163);
-    background-image: url(picture/shutterstock_1148506721.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position: 0px 30px;
-    background-size: 100% 550px;
-    min-height: 250vh;
-    overflow-x: hidden;
-
-}
-#bodycontact{
-    background-color: rgb(141, 156, 163);
-    background-image: url(picture/saudi-arabia-beaches-1920x1080.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position: 0px 30px;
-    background-size: 100% 550px;
-    min-height: 210vh;
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-
-}
 #saudinight{
     background-image: none;
 }
@@ -81,26 +45,6 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; ;
 }
 
-header{
-
-
-
-
-   
-  
-
-    
-}
-#top{
-    
-}
-
-.city{
-    font-size:50px ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    font: bolder;
-    text-align: center;
-}
 h2{
     background: linear-gradient(rgb(199, 224, 226), rgb(139, 122, 152));
     color: #ffff;
@@ -114,45 +58,9 @@ h2{
     text-align: center;
 
 }
-#h2cities{
-    background: linear-gradient(rgb(148, 206, 181), rgb(29, 29, 148));
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    font-size: 50px;
-    position:relative; 
-    top: 410px;
-    text-align: center;
-    margin-left: 400px;
-    margin-right: 400px;
-}
-#h2contact{
-    background: linear-gradient(rgb(158, 233, 240), rgb(178, 129, 52));
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    font-size: 50px;
-    position:relative; 
-    top: 410px;
-    text-align: center;
-    margin-left: 420px;
-    margin-right: 420px; 
-}
-#h2video{
-    background: linear-gradient(rgb(168, 157, 174), rgb(224, 144, 114));
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    font-size: 50px;
-    position:relative; 
-    top: 410px;
-    text-align: center;
-    margin-left: 320px;
-    margin-right: 320px; 
 
-}
-#saudimap{
-    width: 650px;
-    position: relative;
-    top: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
+
 p{
     position:relative; 
     top: 470px;
@@ -175,14 +83,6 @@ p{
     margin-top: 25px;
     margin-left: 15px;
 }
-#divideo{
-    margin-top: 480px;
-    margin-bottom: 50px;
-    background-color: rgb(21, 10, 10);
-    margin-left: 100px;
-    margin-right: 100px;
-
-}
 
 form{
     position:relative; 
@@ -201,60 +101,10 @@ input, label{
   font-style: normal;
 
 }
-#tablesport{ 
-    border-collapse: collapse;
-    width: 90%;
-    height: 1500px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30%;
+
     
 
-}
-#tablesport tr:nth-child(even){
-    
-    background-color: #f2f2f2;
 
-
-}
-#tablesport tr:nth-child(odd){
-    background-color: #ddd;
-
-}
-
-#tablesport th{
-    background-color: rgb(255,0,0);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-
-
-}
-tr,td{
-    border-color: black;
-    border: 1px solid #000000;
-}
-#populations{
-    padding-right: 30px;
-    padding-left: 100px;
-    
-}
-    
-
-textarea::placeholder{
-    text-align: left;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-
-}
-button{
-    width: 70px;
-    height: 50px;
-    background-color: rgb(61, 50, 216);
-    border-radius: 5px;
-    color: #ffff;
-    font-size: 25px;
-    padding: 1px;
-    margin-left: 470px;
-}
 .symbol{
     width: 100px ;
     display: block;

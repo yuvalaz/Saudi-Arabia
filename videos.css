@@ -1,0 +1,30 @@
+#bodyvideo{
+    background-color: rgb(141, 156, 163);
+    background-image: url(picture/shutterstock_1148506721.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 0px 30px;
+    background-size: 100% 550px;
+    min-height: 250vh;
+    overflow-x: hidden;
+
+}
+#h2video{
+    background: linear-gradient(rgb(168, 157, 174), rgb(224, 144, 114));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 50px;
+    position:relative; 
+    top: 410px;
+    text-align: center;
+    margin-left: 320px;
+    margin-right: 320px; 
+
+}
+#divideo{
+    margin-top: 480px;
+    margin-bottom: 50px;
+    background-color: rgb(21, 10, 10);
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
